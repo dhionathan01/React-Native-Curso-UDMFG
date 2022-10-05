@@ -3,6 +3,7 @@ import { View, Text, Image  } from 'react-native';
 
 class App extends Component{
     render() {
+        let nome = 'Dhionathan';
         return (
             <View>
                 <Text>Testando React!!!</Text>
@@ -13,7 +14,9 @@ class App extends Component{
                 </Text>
                 <Image
                     source={{ uri: 'https://conteudo.imguol.com.br/c/noticias/2f/2021/08/02/imagem-meramente-ilustrativa-da-galaxia-de-andromeda-1627924758757_v2_900x506.jpg.webp' }}
-                    style={{width: 300, height:300}}/>
+                    style={{ width: 300, height: 300 }}
+                />
+                <Text>{nome}</Text>
             </View>
         )
     };
